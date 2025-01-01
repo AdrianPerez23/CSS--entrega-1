@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-size-adjust: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: #aaffaa;
+}
+
+/* Landing Page */
+header {
+  position: fixed;
+  text-align: left;
+  border-top: 1px dashed #aaffaa;
+  border-bottom: 1px dashed #aaffaa;
+  padding: 10px 0;
+}
+/* Contenido Principal */
+.content {
+  flex: 2;
+  border: 1px dashed #aaffaa;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.content button {
+  background-color: rgba(255, 255, 255, 0.877);
+  color: black;
+}
+
+/* UL */
+.sidebar {
+  border: 1px dashed #aaffaa;
+  padding: 20px;
+  width: 160px;
+  margin-left: auto; /* Empuja el contenedor hacia la derecha */
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Características */
+.features {
+  text-align: center;
+  border-top: 1px dashed #aaffaa;
+  border-bottom: 1px dashed #aaffaa;
+  padding: 20px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 0px;
+  display: block;
+}
+
+.feature span {
+  font-size: 1.2rem;
+}
+
+.feature button {
+  background-color: rgba(255, 255, 255, 0.877);
+  color: black;
+  white-space: pre-wrap;
+}
+
+.feature button:hover {
+  background-color: #aaffaa;
+  color: #000;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  position: fixed; /* Fija el footer */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px dashed #aaffaa;
+  border-bottom: 1px dashed #aaffaa;
+  padding: 20px 0;
+  margin: 20px;
+}
